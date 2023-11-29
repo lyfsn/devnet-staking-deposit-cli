@@ -1,0 +1,13 @@
+./deposit.sh install  
+
+
+ ./deposit.sh existing-mnemonic    
+
+
+
+
+# giant issue aisle success illegal bike spike question tent bar rely arctic volcano long crawl hungry vocal artwork sniff fantasy very lucky have athlete
+
+
+
+
