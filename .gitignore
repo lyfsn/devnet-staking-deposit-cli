@@ -1,4 +1,6 @@
 validator_keys
+validator_keys_4096
+validator_keys_*
 bls_to_execution_changes
 
 # Python testing & linting:

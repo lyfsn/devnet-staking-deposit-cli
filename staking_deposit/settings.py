@@ -37,8 +37,8 @@ ZhejiangSetting = BaseChainSetting(
 HoleskySetting = BaseChainSetting(
     # NETWORK_NAME=HOLESKY, GENESIS_FORK_VERSION=bytes.fromhex('01017000'),
     # GENESIS_VALIDATORS_ROOT=bytes.fromhex('9143aa7c615a7f7115e2b6aac319c03529df8242ae705fba9df39b79c59fa8b1'))
-    NETWORK_NAME=HOLESKY, GENESIS_FORK_VERSION=bytes.fromhex('10000038'),
-    GENESIS_VALIDATORS_ROOT=bytes.fromhex('d61ea484febacfae5298d52a2b581f3e305a51f3112a9241b968dccf019f7b11'))
+    NETWORK_NAME=HOLESKY, GENESIS_FORK_VERSION=bytes.fromhex('10000001'),
+    GENESIS_VALIDATORS_ROOT=bytes.fromhex('202c996ddee3afe959f106b6759bbd3453a592f70ada65ab44b0c6dfdd0d3df5'))
 
 
 ALL_CHAINS: Dict[str, BaseChainSetting] = {
