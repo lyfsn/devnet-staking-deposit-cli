@@ -6,7 +6,7 @@ mkdir -p validator_keys_new
   --language=English \
   --non_interactive \
   new-mnemonic \
-  --num_validators=64 \
+  --num_validators=1 \
   --mnemonic_language=english \
   --chain=holesky \
   --folder=./validator_keys_new \
