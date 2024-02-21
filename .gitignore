@@ -1,4 +1,6 @@
 validator_keys
+validator_keys_*
+validator_config
 bls_to_execution_changes
 
 # Python testing & linting:
@@ -12,3 +14,5 @@ venv/
 *.egg
 __pycache__
 .DS_Store
+
+password.txt
