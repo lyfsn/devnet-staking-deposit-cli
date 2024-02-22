@@ -37,11 +37,11 @@ if __name__ == "__main__":
 
     SECRET_CONSTANT = sys.argv[1]
     directories = [
-        'validator_config/geth-lighthouse',
-        'validator_config/nethermind-lighthouse-1',
-        'validator_config/nethermind-lighthouse-2',
-        'validator_config/besu-lighthouse-1',
-        'validator_config/besu-lighthouse-2',
+        'validator_keys_config/geth-lighthouse',
+        'validator_keys_config/nethermind-lighthouse-1',
+        'validator_keys_config/nethermind-lighthouse-2',
+        'validator_keys_config/besu-lighthouse-1',
+        'validator_keys_config/besu-lighthouse-2',
     ]
 
     for directory in directories:

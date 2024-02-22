@@ -1,6 +1,7 @@
 import os
 import subprocess
 import sys
+import shutil
 
 def create_password_file(secret_constant, file_path):
     """Create or overwrite password.txt file with the SECRET_CONSTANT."""
@@ -30,13 +31,14 @@ if __name__ == "__main__":
     create_password_file(SECRET_CONSTANT, password_file_path)  # Create password.txt file with the absolute path
 
     directories = [
-        'validator_config/geth-prysm',
-        'validator_config/nethermind-prysm',
-        'validator_config/besu-prysm',
+        'validator_keys_config/geth-prysm',
+        'validator_keys_config/nethermind-prysm',
+        'validator_keys_config/besu-prysm',
     ]
 
     for directory in directories:
         full_directory_path = os.path.abspath(directory)
         run_docker_commands(full_directory_path, docker_image, password_file_path)
+        shutil.copy(password_file_path, full_directory_path)
 
     print("Docker commands have been executed.")

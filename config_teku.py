@@ -36,9 +36,9 @@ if __name__ == "__main__":
 
     SECRET_CONSTANT = sys.argv[1]
     directories = [
-        'validator_config/geth-teku',
-        'validator_config/nethermind-teku',
-        'validator_config/besu-teku',
+        'validator_keys_config/geth-teku',
+        'validator_keys_config/nethermind-teku',
+        'validator_keys_config/besu-teku',
     ]
 
     for directory in directories:
