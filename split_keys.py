@@ -1,7 +1,7 @@
 import os
 import shutil
 
-directories_to_delete = ['validator_keys_all', 'validator_config']
+directories_to_delete = ['validator_keys_all', 'validator_keys_config']
 
 for directory in directories_to_delete:
     if os.path.exists(directory):
@@ -35,24 +35,24 @@ for start_index, end_index in index_ranges:
 
 # Step 2: Create target directories with subdirectories
 target_directories = [
-    'validator_config/geth-lighthouse',
-    'validator_config/geth-prysm',
-    'validator_config/geth-teku',
-    'validator_config/nethermind-lighthouse-1',
-    'validator_config/nethermind-lighthouse-2',
-    'validator_config/nethermind-prysm',
-    'validator_config/nethermind-teku',
-    'validator_config/besu-lighthouse-1',
-    'validator_config/besu-lighthouse-2',
-    'validator_config/besu-prysm',
-    'validator_config/besu-teku',
+    'validator_keys_config/geth-lighthouse',
+    'validator_keys_config/geth-prysm',
+    'validator_keys_config/geth-teku',
+    'validator_keys_config/nethermind-lighthouse-1',
+    'validator_keys_config/nethermind-lighthouse-2',
+    'validator_keys_config/nethermind-prysm',
+    'validator_keys_config/nethermind-teku',
+    'validator_keys_config/besu-lighthouse-1',
+    'validator_keys_config/besu-lighthouse-2',
+    'validator_keys_config/besu-prysm',
+    'validator_keys_config/besu-teku',
 ]
 
 for target in target_directories:
     os.makedirs(os.path.join(target, 'validator_keys'), exist_ok=True)
     os.makedirs(os.path.join(target, 'validator_keys_secrets'), exist_ok=True)
 
-# Step 3: Copy files from validator_keys_all to corresponding validator_config directory
+# Step 3: Copy files from validator_keys_all to corresponding validator_keys_config directory
 source_base = 'validator_keys_all/validator_keys_'
 for i, target_dir_base in enumerate(target_directories, start=1):
     source_dir = f'{source_base}{i}'
