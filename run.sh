@@ -6,7 +6,6 @@ mkdir -p validator_keys
 
 ./deposit.sh \
   --language=English \
-  --non_interactive \
   existing-mnemonic \
   --validator_start_index=0 \
   --num_validators=32999 \
