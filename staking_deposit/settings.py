@@ -38,7 +38,7 @@ HoleskySetting = BaseChainSetting(
     # NETWORK_NAME=HOLESKY, GENESIS_FORK_VERSION=bytes.fromhex('01017000'),
     # GENESIS_VALIDATORS_ROOT=bytes.fromhex('9143aa7c615a7f7115e2b6aac319c03529df8242ae705fba9df39b79c59fa8b1'))
     NETWORK_NAME=HOLESKY, GENESIS_FORK_VERSION=bytes.fromhex('10000001'),
-    GENESIS_VALIDATORS_ROOT=bytes.fromhex('049f710fc3b4c7738be4a503e8f6272c6614fc225ca8f6676bea36fc5f7d10bc'))
+    GENESIS_VALIDATORS_ROOT=bytes.fromhex('6e1583608783377f139b7bac661aff7d5cca656af16ac34f9d0eda27dbf1316c'))
 
 
 ALL_CHAINS: Dict[str, BaseChainSetting] = {
