@@ -20,23 +20,23 @@ HOLESKY = 'holesky'
 # Mainnet setting
 MainnetSetting = BaseChainSetting(
     NETWORK_NAME=MAINNET, GENESIS_FORK_VERSION=bytes.fromhex('10000001'),
-    GENESIS_VALIDATORS_ROOT=bytes.fromhex('2aacf31b5d72f4ba96105d28e77b63eb5805bd1666d44a6339415b494f6426earoot'))
+    GENESIS_VALIDATORS_ROOT=bytes.fromhex('2aacf31b5d72f4ba96105d28e77b63eb5805bd1666d44a6339415b494f6426ea'))
 # Goerli setting
 GoerliSetting = BaseChainSetting(
     NETWORK_NAME=GOERLI, GENESIS_FORK_VERSION=bytes.fromhex('10000001'),
-    GENESIS_VALIDATORS_ROOT=bytes.fromhex('2aacf31b5d72f4ba96105d28e77b63eb5805bd1666d44a6339415b494f6426earoot'))
+    GENESIS_VALIDATORS_ROOT=bytes.fromhex('2aacf31b5d72f4ba96105d28e77b63eb5805bd1666d44a6339415b494f6426ea'))
 # Sepolia setting
 SepoliaSetting = BaseChainSetting(
     NETWORK_NAME=SEPOLIA, GENESIS_FORK_VERSION=bytes.fromhex('10000001'),
-    GENESIS_VALIDATORS_ROOT=bytes.fromhex('2aacf31b5d72f4ba96105d28e77b63eb5805bd1666d44a6339415b494f6426earoot'))
+    GENESIS_VALIDATORS_ROOT=bytes.fromhex('2aacf31b5d72f4ba96105d28e77b63eb5805bd1666d44a6339415b494f6426ea'))
 # Zhejiang setting
 ZhejiangSetting = BaseChainSetting(
     NETWORK_NAME=ZHEJIANG, GENESIS_FORK_VERSION=bytes.fromhex('10000001'),
-    GENESIS_VALIDATORS_ROOT=bytes.fromhex('2aacf31b5d72f4ba96105d28e77b63eb5805bd1666d44a6339415b494f6426earoot'))
+    GENESIS_VALIDATORS_ROOT=bytes.fromhex('2aacf31b5d72f4ba96105d28e77b63eb5805bd1666d44a6339415b494f6426ea'))
 # Holesky setting
 HoleskySetting = BaseChainSetting(
     NETWORK_NAME=HOLESKY, GENESIS_FORK_VERSION=bytes.fromhex('10000001'),
-    GENESIS_VALIDATORS_ROOT=bytes.fromhex('2aacf31b5d72f4ba96105d28e77b63eb5805bd1666d44a6339415b494f6426earoot'))
+    GENESIS_VALIDATORS_ROOT=bytes.fromhex('2aacf31b5d72f4ba96105d28e77b63eb5805bd1666d44a6339415b494f6426ea'))
 
 
 ALL_CHAINS: Dict[str, BaseChainSetting] = {
